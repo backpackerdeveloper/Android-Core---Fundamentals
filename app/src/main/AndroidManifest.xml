@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AndroidCore"
         tools:targetApi="31">
         <activity
+            android:name=".DataBindActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LiveDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
